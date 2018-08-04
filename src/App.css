@@ -1,0 +1,67 @@
+.appName{
+  color:rgb(39, 158, 231);
+  font-size: 55px;
+  opacity:.9;
+  text-transform: uppercase;
+  letter-spacing:15px;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 300;
+  text-align:center;
+  padding-bottom:26px;
+  border-bottom:.5px rgb(116, 193, 241) solid;
+  width:360px;
+  margin:30px auto;
+}
+
+.form{
+  margin:0 auto;
+  border:3px rgb(116, 193, 241) solid;
+  width:40%;
+  display:flex;
+  flex-direction:column;
+  padding:40px;
+  width:280px;
+  border-radius:5px;
+  
+}
+
+input{
+  margin-left:5px;
+  margin-bottom:20px;
+}
+
+.form label {
+  margin:0 auto;
+}
+
+#submitBtn{
+  width:100px;
+  border-radius:10px;
+  padding:15px;
+  display:block;
+  margin:0 auto;
+  background-color:rgba(255,255,255,0.5);
+  border:2px rgb(116, 193, 241) solid;
+  color:rgb(116, 193, 241);
+  text-transform: lowercase;
+  font-weight:bold;
+  font-family:"Helvetica";
+  font-size:12px;
+  letter-spacing:5px;
+  box-shadow:2px 2px 3px rgba(0,0,0,0.4);
+  margin-bottom:30px;
+}
+
+#submitBtn:hover{
+  background-color:rgba(255,255,255,1);
+
+}
+
+#submitBtn:focus{
+  outline:0;
+  
+}
+
+#submitBtn:active{
+  box-shadow:2px 2px 3px rgba(0,0,0,0.2);
+}
