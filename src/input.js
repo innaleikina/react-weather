@@ -14,7 +14,7 @@ class Input extends React.Component {
       super(props);
       this.state = {
           value: '',
-          image: '',
+          image: 'https://images.unsplash.com/photo-1481007553706-bde1ba8e91fd?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=caec8d3a7e2fbd72ff14891daf9df3d1&auto=format&fit=crop&w=1500&q=80',
           date: ' ',
           day: ' ',
           high: ' ',
