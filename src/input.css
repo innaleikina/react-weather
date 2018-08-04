@@ -1,0 +1,22 @@
+.resultWrap{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    /* border:1px red solid; */
+    margin:0 auto;
+    text-align:center;
+    font-family:"Helvetica";
+}
+
+#image{
+    display:block;
+    width:200px;
+    height:200px;
+    margin-top:10px;
+    border-radius:10px;
+    box-shadow:inset 2px 2px 3px rgba(0,0,0,0.4);
+}
+
+.weatherDataWrap{
+color:rgba(9, 86, 138, 0.4);
+}

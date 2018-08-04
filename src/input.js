@@ -3,7 +3,7 @@ import weather from 'yahoo-weather';
 import Weather from './weatherApi.js';
 import titleCase from 'title-case';
 import unsplash from 'unsplash-api';
-
+import './input.css';
 
 var clientId = '5f7824d340097ca7286f70ec303af16a56bc8f2d6326807bb0e7551b3d07f7b0'; //this is required to verify your application's requests
 unsplash.init(clientId);
@@ -61,23 +61,24 @@ class Input extends React.Component {
   
     render() {
       return (
-         
-        <form className="form" onSubmit={this.handleSubmit}>
-          <label>
-            City:
-            <input type="text" value={this.state.value} onChange={this.handleChange} />
-          </label>
-          <input id="submitBtn" type="submit" value="Submit" />
-          <img id="image" src={this.state.image}/>
-         <Weather inputvalue={titleCase(this.state.value)}
-                  date={this.state.date}
-                  day={this.state.day}
-                  high={this.state.high}
-                  low={this.state.low}
-                  text={this.state.text}/>
-
+       
+           <form className="form" onSubmit={this.handleSubmit}>
+             <label>
+             City:
+                <input type="text" value={this.state.value} onChange={this.handleChange} />
+             </label>
+             <input id="submitBtn" type="submit" value="Submit" />
+             <div class="resultWrap">
+                <img id="image" src={this.state.image}/>
+                 <Weather inputvalue={titleCase(this.state.value)}
+                     date={this.state.date}
+                     day={this.state.day}
+                     high={this.state.high}
+                     low={this.state.low}
+                     text={this.state.text}/>
+              </div>
         </form>
-    
+
       );
     }
   }
