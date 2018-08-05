@@ -5,7 +5,7 @@ import titleCase from 'title-case';
 import unsplash from 'unsplash-api';
 import './input.css';
 
-var clientId = '5f7824d340097ca7286f70ec303af16a56bc8f2d6326807bb0e7551b3d07f7b0'; //this is required to verify your application's requests
+var clientId = ''; //this is required to verify your application's requests
 unsplash.init(clientId);
 
 
