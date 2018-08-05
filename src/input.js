@@ -6,6 +6,7 @@ import unsplash from 'unsplash-api';
 import './input.css';
 //require('dotenv').config()
 
+<<<<<<< HEAD
 var API_KEY = process.env.REACT_APP_UNSPLASH_API_KEY;
 
 console.log(API_KEY);
@@ -13,6 +14,10 @@ console.log(API_KEY);
 
 //var clientId = api_key; //this is required to verify your application's requests
 unsplash.init(API_KEY);
+=======
+var clientId = ''; //this is required to verify your application's requests
+unsplash.init(clientId);
+>>>>>>> c79e711a2eafe027cc937bb397981ca3d5b359e6
 
 
 class Input extends React.Component {
