@@ -16,7 +16,7 @@ UNSPLASH_SECRET=YOUR_SECRET
 
 ```
 
-In command like run 
+In command line run 
 ```
 npm i
 
