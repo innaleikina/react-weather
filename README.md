@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # WEATHER APP
 
-This is a quick exercise to build a weather using React from scratch.
+This is a quick exercise to build a weather app using React from scratch.
 
 * [Live Site](https://desolate-island-28081.herokuapp.com/)
 
